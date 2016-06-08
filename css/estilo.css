@@ -1,0 +1,89 @@
+/*Estilizando a aprarência da página*/
+
+body{
+	 font-family: helvetica, sans-serif;
+}
+body h1, h2, h5{
+	color: #496b86;
+}
+body h1{
+	height: 12px;
+}
+body h5{
+	height: 12px;
+}
+
+a:link, a:visited{
+	color: #cee6f9;
+	
+}
+#wrap{
+	 width: 860px;
+	 height: 470px;
+	 margin: auto;
+	 background: black;
+	 padding: 10px 20px;
+	 overflow: hidden;
+	 	 
+}
+header ul li a:hover{
+	text-decoration: none;
+}
+#LookTable{	
+	border-style: collapse;
+    border-color: #496b86;
+}
+#LookTable tr td{
+	width: 20px;
+}
+#LookTable tr td a{
+	color: White;
+	font-size: 15px;
+}
+#head{
+	width: 88%;
+	float: left;
+}
+#relogio{
+	float: right;
+}
+#imagens{
+	border-image: url(border.png) 30 round;
+}
+header nav ul{
+	list-style: none;
+	padding-left: 0px;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+header nav ul li a{
+	font-size: 18px;
+	color: #cee6f9;
+}
+#content{
+	float: right;
+	width: 650px;
+	background: none;
+}
+
+aside ul li a:hover{	
+	text-decoration: none;
+}
+
+#sideBar{
+	float: left;
+    /*definimos a largura do box*/
+    width:150px;
+    /* definimos a altura do box */
+    height:350px;
+    /* definimos a cor de fundo do box */
+    background-color:#496b86;
+    /* definimos o quão arredondado irá ficar nosso box */
+    border-radius: 10px 20px 30px;
+    }
+footer{
+	float: right ;
+	clear: both;
+}
