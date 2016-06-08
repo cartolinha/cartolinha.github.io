@@ -3,10 +3,10 @@
 body{ 
 	background-image: url("../HTML/cartola.jpg");
 	
-	/*background-repeat: no-repeat;/
+	background-repeat: no-repeat;/
 	z-indexmoz-background-size: 100% 100%;
 	z-indexwebkit-background-size: 100% 100%;
-	background-size: 100% 100%;*/
+	background-size: 100% 100%;
 	font-family: helvetica, sans-serif;
 }
 body h1, h2, h5{
