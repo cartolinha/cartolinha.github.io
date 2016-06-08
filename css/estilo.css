@@ -1,10 +1,16 @@
 /*Estilizando a aprarência da página*/
 
-body{
-	 font-family: helvetica, sans-serif;
+body{ 
+	background-image: url("../HTML/cartola.jpg");
+	
+	/*background-repeat: no-repeat;/
+	z-indexmoz-background-size: 100% 100%;
+	z-indexwebkit-background-size: 100% 100%;
+	background-size: 100% 100%;*/
+	font-family: helvetica, sans-serif;
 }
 body h1, h2, h5{
-	color: #496b86;
+	color: #000000;
 }
 body h1{
 	height: 12px;
@@ -14,14 +20,12 @@ body h5{
 }
 
 a:link, a:visited{
-	color: #cee6f9;
-	
+	color: #000000;	
 }
 #wrap{
-	 width: 860px;
-	 height: 1200px;
+	 width: 910px;
 	 margin: auto;
-	 background: black;
+	 background: #f6f6f7;
 	 padding: 10px 20px;
 	 overflow: hidden;
 	 	 
@@ -31,13 +35,13 @@ header ul li a:hover{
 }
 #LookTable{	
 	border-style: collapse;
-    border-color: #496b86;
+    border-color: #000000;
 }
 #LookTable tr td{
-	width: 20px;
+	width: 30px;
 }
 #LookTable tr td a{
-	color: White;
+	color: #000000;
 	font-size: 15px;
 }
 #head{
@@ -47,8 +51,11 @@ header ul li a:hover{
 #relogio{
 	float: right;
 }
-#imagens{
-	border-image: url(border.png) 30 round;
+#content #imagens{
+	size: 50%;
+}
+aside #youtube{
+	background: url("../HTML/youtube.jpg");	
 }
 header nav ul{
 	list-style: none;
@@ -60,7 +67,7 @@ header nav ul li{
 }
 header nav ul li a{
 	font-size: 18px;
-	color: #cee6f9;
+	color: #000000;
 }
 #content{
 	float: right;
@@ -76,13 +83,20 @@ aside ul li a:hover{
 	float: left;
     /*definimos a largura do box*/
     width:150px;
-    /* definimos a altura do box */
-    height:350px;
+    /* definimos a cor de fundo do box */
+    background-color:#496b86;
+    /* definimos o quão arredondado irá ficar nosso box */
+    border-radius: 5px 5px 5px;
+    }
+#sideBar2{
+	float: right;
+    /*definimos a largura do box*/
+    width:150px;
     /* definimos a cor de fundo do box */
     background-color:#496b86;
     /* definimos o quão arredondado irá ficar nosso box */
     border-radius: 10px 20px 30px;
-    }
+}
 footer{
 	float: right ;
 	clear: both;
